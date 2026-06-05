@@ -1,0 +1,23 @@
+Method,Name,Error,Occurrences
+GET,/,"ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",1044
+GET,/d/dashboard_uid/my-dashboard,"ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",1661
+POST,/login,"ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",491
+GET,/dashboards/new,"ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",582
+GET,/alerting/rules,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",177
+GET,/alerting/rules,"ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",1039
+GET,/alerting,"ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",2200
+GET,/login,"ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",530
+GET,/alerting,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",379
+GET,/alerting/alerts/new,"ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",525
+GET,/datasources,"ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",1138
+GET,/dashboards,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",368
+GET,/dashboards/new,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",100
+GET,/dashboards,"ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",2203
+GET,/dashboards/find?query=my_dashboard,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",178
+POST,/login,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",1
+GET,/dashboards/find?query=my_dashboard,"ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",1068
+GET,/,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",203
+GET,/alerting/alerts/new,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",84
+GET,/login,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",92
+GET,/datasources,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",159
+GET,/d/dashboard_uid/my-dashboard,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",258

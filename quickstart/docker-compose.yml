@@ -1,0 +1,14 @@
+
+services:
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+  locust:
+    build: .
+    ports:
+      - "8089:8089"
+    volumes:
+      - ".:/srv/app"
+    command: "locust -f /srv/app/locustfile.py --host http://grafana:3000"
+

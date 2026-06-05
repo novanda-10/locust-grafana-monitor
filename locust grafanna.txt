@@ -1,0 +1,37 @@
+open docker descktop
+open pycharm
+C:\Users\AVAJANG\PycharmProjects\locustGithubbb
+
+venv\Scripts\activate.bat 	-------(in command prompt) dont know why it does not work
+.\venv\Scripts\Activate.ps1   ---------(in powershell)
+
+
+
+cd quickstart
+
+docker-compose up -d    (ignore docker error for locust) 
+
+locust -f locustfile.py 
+
+locust -f locustfile.py http://localhost:3000 
+
+
+
+go to ------------------>    http://localhost:8089/
+
+
+add http://localhost:3000 in host field
+
+
+
+awlways replace 0.0.0.0 with localhost
+
+
+
+D:\pythonProject5		random forest test geekforgeek
+
+
+locust -f locustfile.py --csv=results --csv-full-history      (per request info) ----> this is used for me
+
+
+کاربرد رندوم فارست در استرس تست
