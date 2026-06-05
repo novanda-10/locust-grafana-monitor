@@ -1,32 +1,33 @@
+#### original repo I just made few changes in "quickstart" folder to use it
+
+https://github.com/jamescarr/locust.io-demo
+
+# If you encounter issues while trying to run this project (e.g., dependency errors, missing files, or environment problems), please read locust grafanna guide.txt
+
 # Locust.IO Demos
+
 This project has a few demos of how to use locust.io to load test
 various services. Given as part of [a presentation on locust.io](https://speakerdeck.com/jamescarr/load-testing-with-locust-dot-io#)!
 
-
-
-* `quickstart` - The locust.io quickstart tutorial that logs in and load
+- `quickstart` - The locust.io quickstart tutorial that logs in and load
   tests pages on a grafana installation
-* `distributed` - the same thing as Quickstart but done with multiple
+- `distributed` - the same thing as Quickstart but done with multiple
   workers
-* `Events` - A quick tour of events
-* Graphing - An example of using events to tap response times in
+- `Events` - A quick tour of events
+- Graphing - An example of using events to tap response times in
   influxdb + grafana
-* `RabbitMQ` - A final demo of using locust.io to load test something
+- `RabbitMQ` - A final demo of using locust.io to load test something
   non-web based... by blasting AMQP packets to a rabbitMQ host
 
-
 ## Running the Samples
+
 All of these samples run locally using docker-compose. Simply switch to
 the demo directory, type `docker-compose up -d`.
 
 ### URLs
 
-* http://dockerhost:8086 - Locust.io dashboard
-* http://dockerhost:3000 - grafana installation, login is admin/admin
-* http://dockerhost:15672 - rabbitmq installation, login is guest/guest
-
-
-#### original repo   I just made few changes in "quickstart" folder to use it
-https://github.com/jamescarr/locust.io-demo
+- http://dockerhost:8086 - Locust.io dashboard
+- http://dockerhost:3000 - grafana installation, login is admin/admin
+- http://dockerhost:15672 - rabbitmq installation, login is guest/guest
 
 #####results and report are in pdf file and html file.

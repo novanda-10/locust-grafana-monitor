@@ -1,6 +1,11 @@
 open docker descktop
 open pycharm
-C:\Users\AVAJANG\PycharmProjects\locustGithubbb
+## 📂 Project Setup
+
+After cloning the repository, navigate to the project directory:
+
+```bash
+cd locustGithubbb
 
 venv\Scripts\activate.bat 	-------(in command prompt) dont know why it does not work
 .\venv\Scripts\Activate.ps1   ---------(in powershell)
@@ -32,6 +37,3 @@ D:\pythonProject5		random forest test geekforgeek
 
 
 locust -f locustfile.py --csv=results --csv-full-history      (per request info) ----> this is used for me
-
-
-کاربرد رندوم فارست در استرس تست
